@@ -2,6 +2,7 @@ import AvatarService from "@/components/avatar-service";
 import CircleImage from "@/components/circle-image";
 import TransitionPage from "@/components/transition-page";
 import SliderServices from "@/components/slider-services";
+import Link from 'next/link';
 
 const ServicesPage = () => {
     return (
@@ -15,7 +16,7 @@ const ServicesPage = () => {
                         Mis{" "} <span className="font-bold text-secondary">Servicios.</span>
                     </h1>
                     <p className="mb-3 text-xl text-gray-300"> Brindo servicios de desarrollo web frontend, creando sitios y aplicaciones dinámicas, atractivas y altamente funcionales. Utilizo tecnologías modernas como HTML, CSS, JavaScript, React.js y Next.js para diseñar interfaces intuitivas, responsivas y alineadas con la identidad visual de cada cliente, mejorando su presencia digital y experiencia de usuario. 🚀</p>
-                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65"><a href="https:/www.linkedin.com/in/juanherrera8">Contacta conmigo</a></button>
+                    <Link href="https:/www.linkedin.com/in/juanherrera8" className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</Link>
                 </div>
 
                 <SliderServices />

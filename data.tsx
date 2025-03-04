@@ -136,8 +136,8 @@ export const dataPortfolio = [
         id: 6,
         title: "ChatApp",
         image: "/chat.png",
-        urlGithub: "#https://github.com/JuanHerrera8/PruebaTecnicaCariAi",
-        urlDemo: "prueba-tecnica-cari-ai.vercel.app/",
+        urlGithub: "https://github.com/JuanHerrera8/PruebaTecnicaCariAi",
+        urlDemo: "https://prueba-tecnica-cari-ai.vercel.app/",
     },
     {
         id: 5,
